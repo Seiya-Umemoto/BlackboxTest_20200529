@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=CalAdm
-comment0.text=\r\n\ \uC5EC\uAE30\uC5D0\ CalAdm\ \uD074\uB798\uC2A4\ \uC124\uBA85\uC744\ \uC791\uC131\uD558\uC2ED\uC2DC\uC624.\r\n\ \r\n\ @author\ (\uC791\uC131\uC790\ \uC774\uB984)\ \r\n\ @version\ (\uBC84\uC804\uBC88\uD638\uB098\ \uB0A0\uC9DC)\r\n
+comment0.text=\r\n\ ABC\uC218\uC871\uAD00\ \uC785\uC7A5\uB8CC\uB97C\ \uC5F0\uB839\uC5D0\ \uB530\uB77C\ \uACC4\uC0B0\uD558\uB294\ \uBA54\uC18C\uB4DC\r\n\ \r\n\ @author\ (2018315056\ \uC6B0\uBA54\uBAA8\uD1A0\ \uC138\uC774\uC57C,\ 2018225129\ \uC774\uC7AC\uADFC,\ 2018315056\ \uC6B0\uBA54\uBAA8\uD1A0\ \uC138\uC774\uC57C)\ \r\n\ @version\ (2020/05/29)\r\n
 comment1.params=age
-comment1.target=double\ calAdm(int)
+comment1.target=int\ calAdm(int)
 numComments=2
