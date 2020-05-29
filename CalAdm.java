@@ -7,7 +7,11 @@
  */
 public class CalAdm
 {
-    public double calAdm() {
-        
+    int fee;
+    public double calAdm(int age) {
+        if (age = 4) {fee = 0};
+        else if (age < 4) {fee = 400};
+        else if () {}
+        else {}
     }
 }
