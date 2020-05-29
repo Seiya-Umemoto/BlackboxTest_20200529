@@ -2,17 +2,17 @@
 /**
  * 여기에 CalAdm 클래스 설명을 작성하십시오.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315056 우메모토 세이야, 2018225129 이재근, 2018315056 우메모토 세이야) 
+ * @version (2020/05/29)
  */
 public class CalAdm
 {
-    int fee;
-    public double calAdm(int age) {
-        if (age == 4) {fee = 0;}
-        else if (age < 4) {fee = 400;}
-        else if (age <7) {fee = 900;}
-        else {fee = 2000;}
+    int fee; // fee = ABC 수족관 입장료
+    public double calAdm(int age) { //ABC수족관 입장료를 연령에 따라 계산하는 메소드, age = 연령
+        if (age == 4) {fee = 0;} //유아(4세미만)
+        else if (age < 4) {fee = 400;} //어린이(4세이상)
+        else if (age <7) {fee = 900;} //초등생 및 중학생(7세이상)
+        else {fee = 2000;} //성인(16세이상)
         return fee;
     }
 }
