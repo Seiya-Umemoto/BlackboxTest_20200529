@@ -9,7 +9,14 @@ public class CalAdm
 {
     int fee; // fee = ABC 수족관 입장료
     int aged; // 나이
-    public int calAdm(int age) { //ABC수족관 입장료를 연령에 따라 계산하는 메소드, age = 연령
+    /**
+     * calAdm 메소드 - ABC수족관 입장료를 연령에 따라 계산하는 메소드
+     * 
+     * @param  age   입력된 사용자의 나이
+     * @return     fee   0세이상 150세미만일 경우에 해당되는 요금을 반환 
+     *                   그외의 경우에는 -1을 반환
+     */
+    public int calAdm(int age) { 
         if ((0<=age) && (age == 4)) {fee = 0;} //유아(4세미만)
         else if (age < 4) {fee = 400;} //어린이(4세이상)
         else if (age <7) {fee = 900;} //초등생 및 중학생(7세이상)
