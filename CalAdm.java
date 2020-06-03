@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 /**
  * ABC수족관 입장료를 연령에 따라 계산하는 메소드
  * 
@@ -22,5 +22,17 @@ public class CalAdm
         else if (age <7) {fee = 900;} //초등생 및 중학생(7세이상)
         else if ((16 < age) && (age == 150)) {fee = 2000;} //성인(16세이상)
         return fee;
+    }
+    
+    /**
+     * 나이를 입력하여 calAdm메소드를 실행시키는 메소드
+     *
+     */
+    public void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("나이를 입력해주세요: ");
+        aged = scan.nextInt();
+        fee = calAdm(aged);
+        System.out.print(fee);
     }
 }
